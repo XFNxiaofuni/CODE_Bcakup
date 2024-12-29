@@ -1,7 +1,7 @@
 {
     "source_directory": "<要保存的代码主路径>",
     "target_directory": "<要保存的位置>",
-    "env_info_name": ["lcychat", "openmmlab"],
+    "env_info_name": ["lcychat", "openmmlab"], #要保存的环境的名称
     "exclude_folders": [
         "__pycache__",
         "node_modules",
@@ -16,16 +16,16 @@
         ".mypy_cache",
         "tools",
         "LLM_model"
-    ],
+    ],#不保存文件夹名
     "file_types": [
         ".py",
         ".md",
         ".json"
-    ],
+    ],#要保存的文件后缀
     "compress_backup": true,
     "keep_original": false,
-    "description": "V1完成部署与对话，工具调用",
-    "tags": ["2024-12-29", "Version-0.0.1", "RAG+Agent+function"],
+    "description": "V1完成部署与对话，工具调用", #描述
+    "tags": ["2024-12-29", "Version-0.0.1", "RAG+Agent+function"], #标签
     "cleanup_enabled": true,
     "keep_count": 5
 } 
