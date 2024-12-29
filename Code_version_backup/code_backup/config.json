@@ -1,0 +1,31 @@
+{
+    "source_directory": "/root/autodl-fs",
+    "target_directory": "/root/autodl-tmp/back_version",
+    "env_info_name": ["lcychat", "openmmlab"],
+    "exclude_folders": [
+        "__pycache__",
+        "node_modules",
+        ".git",
+        ".idea",
+        ".vscode",
+        "venv",
+        "env",
+        "dist",
+        "build",
+        ".pytest_cache",
+        ".mypy_cache",
+        "tools",
+        "LLM_model"
+    ],
+    "file_types": [
+        ".py",
+        ".md",
+        ".json"
+    ],
+    "compress_backup": true,
+    "keep_original": false,
+    "description": "V1完成部署与对话，工具调用",
+    "tags": ["2024-12-29", "Version-0.0.1", "RAG+Agent+function"],
+    "cleanup_enabled": true,
+    "keep_count": 5
+} 
