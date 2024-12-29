@@ -1,6 +1,6 @@
 {
-    "source_directory": "/root/autodl-fs",
-    "target_directory": "/root/autodl-tmp/back_version",
+    "source_directory": "<要保存的代码主路径>",
+    "target_directory": "<要保存的位置>",
     "env_info_name": ["lcychat", "openmmlab"],
     "exclude_folders": [
         "__pycache__",
